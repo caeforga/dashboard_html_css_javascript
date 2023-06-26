@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Responsive dashboard responsive</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <div class="container">
+            <div class="navigation">
+                <ul>
+                    <li>
+                        <a href="#">
+                            <span class="icon"
+                                ><ion-icon name="logo-apple"></ion-icon
+                            ></span>
+                            <span class="title">Brand name</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span class="icon"
+                                ><ion-icon name="home-outline"></ion-icon
+                            ></span>
+                            <span class="title">Dashboard</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span class="icon"
+                                ><ion-icon name="people-outline"></ion-icon
+                            ></span>
+                            <span class="title">Customers</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span class="icon"
+                                ><ion-icon
+                                    name="chatbox-ellipses-outline"
+                                ></ion-icon
+                            ></span>
+                            <span class="title">Message</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span class="icon"
+                                ><ion-icon name="help-circle-outline"></ion-icon
+                            ></span>
+                            <span class="title">Help</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span class="icon"
+                                ><ion-icon name="settings-outline"></ion-icon
+                            ></span>
+                            <span class="title">Settings</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span class="icon"
+                                ><ion-icon name="lock-closed-outline"></ion-icon
+                            ></span>
+                            <span class="title">Password</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span class="icon"
+                                ><ion-icon name="log-out-outline"></ion-icon
+                            ></span>
+                            <span class="title">Sign out</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- main -->
+            <div class="main">
+                <div class="topbar">
+                    <div class="toggle">
+                        <ion-icon name="menu-outline"></ion-icon>
+                    </div>
+                    <!-- search -->
+                    <div class="search">
+                        <label>
+                            <input
+                                type="text"
+                                name=""
+                                id=""
+                                placeholder="Search here"
+                            />
+                            <ion-icon name="search-outline"></ion-icon>
+                        </label>
+                    </div>
+                    <!-- UserImg -->
+                    <div class="user">
+                        <img src="user.jpg" alt="user" />
+                    </div>
+                </div>
+
+                <!-- Cards -->
+                <div class="cardBox">
+                    <div class="card">
+                        <div>
+                            <div class="numbers">1,234</div>
+                            <div class="cardName">Daily Views</div>
+                        </div>
+                        <div class="iconBx">
+                            <ion-icon name="eye-outline"></ion-icon>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div>
+                            <div class="numbers">80</div>
+                            <div class="cardName">Sales</div>
+                        </div>
+                        <div class="iconBx">
+                            <ion-icon name="cart-outline"></ion-icon>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div>
+                            <div class="numbers">234</div>
+                            <div class="cardName">Comments</div>
+                        </div>
+                        <div class="iconBx">
+                            <ion-icon name="chatbubbles-outline"></ion-icon>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div>
+                            <div class="numbers">$12'500.000</div>
+                            <div class="cardName">Earning</div>
+                        </div>
+                        <div class="iconBx">
+                            <ion-icon name="cash-outline"></ion-icon>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="details">
+                    <!-- Order details list -->
+                    <div class="recentOrders">
+                        <div class="cardHeader">
+                            <h2>Recent Orders</h2>
+                            <a href="#" class="btn">View All</a>
+                        </div>
+                        <table>
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Price</td>
+                                    <td>Payment</td>
+                                    <td>Status</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Star Refrigerator</td>
+                                    <td>1200</td>
+                                    <td>paid</td>
+                                    <td>
+                                        <span class="status delivered"
+                                            >Delivered</span
+                                        >
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Window Coolers</td>
+                                    <td>110</td>
+                                    <td>due</td>
+                                    <td>
+                                        <span class="status pending"
+                                            >Pending</span
+                                        >
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>speakers</td>
+                                    <td>620</td>
+                                    <td>paid</td>
+                                    <td>
+                                        <span class="status return"
+                                            >Return</span
+                                        >
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>HP laptop</td>
+                                    <td>110</td>
+                                    <td>due</td>
+                                    <td>
+                                        <span class="status inProgress"
+                                            >In progress</span
+                                        >
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Apple Whatch</td>
+                                    <td>1200</td>
+                                    <td>paid</td>
+                                    <td>
+                                        <span class="status delivered"
+                                            >Delivered</span
+                                        >
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Wall fan</td>
+                                    <td>110</td>
+                                    <td>paid</td>
+                                    <td>
+                                        <span class="status pending"
+                                            >Pending</span
+                                        >
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Adidas shoes</td>
+                                    <td>620</td>
+                                    <td>due</td>
+                                    <td>
+                                        <span class="status return"
+                                            >Return</span
+                                        >
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Window Coolers</td>
+                                    <td>110</td>
+                                    <td>due</td>
+                                    <td>
+                                        <span class="status pending"
+                                            >Pending</span
+                                        >
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Denin shirts</td>
+                                    <td>110</td>
+                                    <td>due</td>
+                                    <td>
+                                        <span class="status inProgress"
+                                            >In progress</span
+                                        >
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Casual shoes</td>
+                                    <td>110</td>
+                                    <td>paid</td>
+                                    <td>
+                                        <span class="status pending"
+                                            >Pending</span
+                                        >
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Wall fan</td>
+                                    <td>110</td>
+                                    <td>paid</td>
+                                    <td>
+                                        <span class="status pending"
+                                            >Pending</span
+                                        >
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Denin shirts</td>
+                                    <td>110</td>
+                                    <td>due</td>
+                                    <td>
+                                        <span class="status inProgress"
+                                            >In progress</span
+                                        >
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <!-- New Customers -->
+                    <div class="recentCustomers">
+                        <div class="cardHeader">
+                            <h2>Recent Customers</h2>
+                        </div>
+                        <table>
+                            <tr>
+                                <td width="60px">
+                                    <div class="imgBx">
+                                        <img src="./imgs/img1.jpg" alt="" />
+                                    </div>
+                                </td>
+                                <td>
+                                    <h4>David</h4>
+                                    <spam>Italy</spam>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td width="60px">
+                                    <div class="imgBx">
+                                        <img src="./imgs/img2.jpg" alt="" />
+                                    </div>
+                                </td>
+                                <td>
+                                    <h4>Carlos</h4>
+                                    <spam>Colombian</spam>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td width="60px">
+                                    <div class="imgBx">
+                                        <img src="./imgs/img3.jpg" alt="" />
+                                    </div>
+                                </td>
+                                <td>
+                                    <h4>Itachi</h4>
+                                    <spam>Japan</spam>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td width="60px">
+                                    <div class="imgBx">
+                                        <img src="./imgs/img4.jpg" alt="" />
+                                    </div>
+                                </td>
+                                <td>
+                                    <h4>Rajaj</h4>
+                                    <spam>India</spam>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td width="60px">
+                                    <div class="imgBx">
+                                        <img src="./imgs/img5.jpg" alt="" />
+                                    </div>
+                                </td>
+                                <td>
+                                    <h4>Miguel</h4>
+                                    <spam>Venezuela</spam>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td width="60px">
+                                    <div class="imgBx">
+                                        <img src="./imgs/img6.jpg" alt="" />
+                                    </div>
+                                </td>
+                                <td>
+                                    <h4>Mark</h4>
+                                    <spam>Usa</spam>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td width="60px">
+                                    <div class="imgBx">
+                                        <img src="./imgs/img7.jpg" alt="" />
+                                    </div>
+                                </td>
+                                <td>
+                                    <h4>Monica</h4>
+                                    <spam>Argentina</spam>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td width="60px">
+                                    <div class="imgBx">
+                                        <img src="./imgs/img8.jpg" alt="" />
+                                    </div>
+                                </td>
+                                <td>
+                                    <h4>Bryan</h4>
+                                    <spam>Canada</spam>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script
+            type="module"
+            src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+        ></script>
+        <script
+            nomodule
+            src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+        ></script>
+    </body>
+</html>
