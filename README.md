@@ -2,6 +2,13 @@
 
 Este es un ejemplo de un dashboard responsivo desarrollado con HTML, CSS y JavaScript. Proporciona una interfaz de usuario sencilla y elegante para mostrar información y realizar acciones relacionadas con un panel de control.
 
+![image](https://github.com/caeforga/dashboard_html_css_javascript/assets/63157717/155915f8-6b12-43ed-84a3-22209cd7b4dd)
+
+
+## Visitar
+
+https://caeforga.github.io/dashboard_html_css_javascript/
+
 ## Características
 
 - Diseño responsivo que se adapta a diferentes tamaños de pantalla.
